@@ -18,7 +18,3 @@ openapi-generator generate \
 	--git-repo-id statuspageio-python \
 	--git-user-id bsneade \
 	-c config.yaml
-
-
-
-#	--api-name-suffix spio \
