@@ -1,0 +1,12 @@
+# PostPagesPageIdComponentGroups
+
+Create a component group
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**description** | **str** | Description of the component group. | [optional] 
+**component_group** | [**PostPagesPageIdComponentGroupsComponentGroup**](PostPagesPageIdComponentGroupsComponentGroup.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

@@ -11,9 +11,14 @@ openapi-generator generate \
 	-g python \
 	-i statuspageio_api-1.0.0-swagger.json \
 	-o . \
-	--api-name-suffix spio \
 	--api-package bsneade \
 	--artifact-id statuspageio-python \
-	--artifact-version 1.0.0-1 \
+	--artifact-version 1.0.0-1.0 \
 	--group-id bsneade \
+	--git-repo-id statuspageio-python \
+	--git-user-id bsneade \
 	-c config.yaml
+
+
+
+#	--api-name-suffix spio \
