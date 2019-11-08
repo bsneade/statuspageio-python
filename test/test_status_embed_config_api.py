@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import spio
-from bsneade.status_embed_config_api import StatusEmbedConfigApi  # noqa: E501
+from spio.api.status_embed_config_api import StatusEmbedConfigApi  # noqa: E501
 from spio.rest import ApiException
 
 
@@ -23,7 +23,7 @@ class TestStatusEmbedConfigApi(unittest.TestCase):
     """StatusEmbedConfigApi unit test stubs"""
 
     def setUp(self):
-        self.api = bsneade.status_embed_config_api.StatusEmbedConfigApi()  # noqa: E501
+        self.api = spio.api.status_embed_config_api.StatusEmbedConfigApi()  # noqa: E501
 
     def tearDown(self):
         pass

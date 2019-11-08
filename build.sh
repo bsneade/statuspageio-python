@@ -11,7 +11,6 @@ openapi-generator generate \
 	-g python \
 	-i statuspageio_api-1.0.0-swagger.json \
 	-o . \
-	--api-package bsneade \
 	--artifact-id statuspageio-python \
 	--artifact-version 1.0.0-1.0 \
 	--group-id bsneade \

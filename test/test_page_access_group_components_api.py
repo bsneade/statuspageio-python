@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import spio
-from bsneade.page_access_group_components_api import PageAccessGroupComponentsApi  # noqa: E501
+from spio.api.page_access_group_components_api import PageAccessGroupComponentsApi  # noqa: E501
 from spio.rest import ApiException
 
 
@@ -23,7 +23,7 @@ class TestPageAccessGroupComponentsApi(unittest.TestCase):
     """PageAccessGroupComponentsApi unit test stubs"""
 
     def setUp(self):
-        self.api = bsneade.page_access_group_components_api.PageAccessGroupComponentsApi()  # noqa: E501
+        self.api = spio.api.page_access_group_components_api.PageAccessGroupComponentsApi()  # noqa: E501
 
     def tearDown(self):
         pass

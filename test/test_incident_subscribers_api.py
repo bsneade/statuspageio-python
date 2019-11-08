@@ -15,7 +15,7 @@ from __future__ import absolute_import
 import unittest
 
 import spio
-from bsneade.incident_subscribers_api import IncidentSubscribersApi  # noqa: E501
+from spio.api.incident_subscribers_api import IncidentSubscribersApi  # noqa: E501
 from spio.rest import ApiException
 
 
@@ -23,7 +23,7 @@ class TestIncidentSubscribersApi(unittest.TestCase):
     """IncidentSubscribersApi unit test stubs"""
 
     def setUp(self):
-        self.api = bsneade.incident_subscribers_api.IncidentSubscribersApi()  # noqa: E501
+        self.api = spio.api.incident_subscribers_api.IncidentSubscribersApi()  # noqa: E501
 
     def tearDown(self):
         pass
